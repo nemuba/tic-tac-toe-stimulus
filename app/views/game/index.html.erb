@@ -1,18 +1,4 @@
 <div class="container">
-  <div class="row row-cols-3" data-controller="tic-tac-toe">
-    <div class="col-12 border p-5 text-center" data-tic-tac-toe-target="message"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-4 border p-5 text-center" data-tic-tac-toe-target="cell" data-action="click->tic-tac-toe#cellClicked"></div>
-    <div class="col-12 border p-5 text-center" data-tic-tac-toe-target="historic">
-      <h3>Game History</h3>
-    </div>
-  </div>
+  <%= render TicTacToeComponent.new %>
 </div>
 
